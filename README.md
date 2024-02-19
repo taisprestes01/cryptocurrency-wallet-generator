@@ -10,7 +10,7 @@
 wallet generator for bitcoin, create your own wallet and make real transactions</h4>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/bitcoinjs-lib/v/1.1.8">
+  <a href="https://www.npmjs.com/package/npm/v/9.7.1">
     <img src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&r=r&ts=1683906897&type=6e&v=9.7.1&x2=0">
   </a>
 	
@@ -18,15 +18,13 @@ wallet generator for bitcoin, create your own wallet and make real transactions<
       <img src="https://img.shields.io/badge/bip32-2.0.6-blue.svg">
   </a>
 
-  <a href="https://www.npmjs.com/package/bip32">
+  <a href="https://www.npmjs.com/package/bip39">
       <img src="https://img.shields.io/badge/bip39-3.1.0-orange.svg">
   </a>
-   <a href="https://www.npmjs.com/package/bip32">
+   <a href="https://www.npmjs.com/package/bitcoinjs-lib">
       <img src="https://img.shields.io/badge/bitcoinjs-6.1.5-yellow.svg">
   </a>
-  <a href="https://www.paypal.me/AmitMerchant">
-    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
-  </a>
+
 </p>
 
 <p align="center">
