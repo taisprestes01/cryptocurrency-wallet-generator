@@ -57,13 +57,17 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+$ git clone https://github.com/taisprestes01/cryptocurrency-wallet-generator
+
+# Install Node
+- https://nodejs.org/en
 
 # Go into the repository
-$ cd electron-markdownify
+$ cd cryptocurrency-wallet-generator
 
 # Install dependencies
 $ npm install
+$ npm install bip39
 
 # Run the app
 $ npm start
