@@ -72,13 +72,35 @@ $ npm install bip32@2.0.6
 $ npm install bitcoinjs-lib
 
 # Run the app
-$ npm start
+$ cd src
+$ node .\createWallet.js
 ```
+<details>
+<summary>Install Electrum</summary>
+  https://electrum.org/#download
+</details>
+<details>
+<summary>Add "--testnet" if you want to use the bitcoin test network</summary>
+	
+ ![image](https://github.com/taisprestes01/cryptocurrency-wallet-generator/assets/108246691/fffb08d7-3ece-4eb3-aec9-4f7996d5dd58)
+</details>
+<details>
+<summary>Publish your wallet with the created private key</summary>
 
-> **Note**
-> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+## Open Electron, create wallet
+![image](https://github.com/taisprestes01/cryptocurrency-wallet-generator/assets/108246691/e5e74106-2bf0-4bad-b34e-2407d9a1176a)
 
+## Import adress
+![image](https://github.com/taisprestes01/cryptocurrency-wallet-generator/assets/108246691/2b96dd62-f95a-46a5-8199-f1e9069a6cf9)
 
+## import private key
+![image](https://github.com/taisprestes01/cryptocurrency-wallet-generator/assets/108246691/f3f12799-62c3-429f-9a09-e1951fc2def0)
+
+## create password
+![image](https://github.com/taisprestes01/cryptocurrency-wallet-generator/assets/108246691/6991f3c2-3bde-421d-a7e5-e13ae602e683)
+
+</details>
+  
 ## Download
 
 You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
