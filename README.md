@@ -79,11 +79,7 @@ $ node .\createWallet.js
 <summary>Install Electrum</summary>
   https://electrum.org/#download
 </details>
-<details>
-<summary>Add "--testnet" if you want to use the bitcoin test network</summary>
-	
- ![image](https://github.com/taisprestes01/cryptocurrency-wallet-generator/assets/108246691/fffb08d7-3ece-4eb3-aec9-4f7996d5dd58)
-</details>
+
 <details>
 <summary>Publish your wallet with the created private key</summary>
 
@@ -100,10 +96,11 @@ $ node .\createWallet.js
 ![image](https://github.com/taisprestes01/cryptocurrency-wallet-generator/assets/108246691/6991f3c2-3bde-421d-a7e5-e13ae602e683)
 
 </details>
-  
-## Download
 
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
+## wallet created
+
+You can search your wallet address [here](https://www.blockchain.com/explorer/assets/btc) to see your balance.
+you can now carry out transactions
 
 ## Emailware
 
