@@ -68,6 +68,8 @@ $ cd cryptocurrency-wallet-generator
 # Install dependencies
 $ npm install
 $ npm install bip39
+$ npm install bip32@2.0.6
+$ npm install bitcoinjs-lib
 
 # Run the app
 $ npm start
