@@ -30,9 +30,9 @@ wallet generator for bitcoin, create your own wallet and make real transactions<
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> 
+  <a href="#wallet-created">Wallet created</a> •
+  <a href="#support">Support</a> •
+  <a href="#you-may-also-like">You may also like</a> 
 </p>
 
 ## Key Features
