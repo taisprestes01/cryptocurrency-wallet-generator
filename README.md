@@ -1,23 +1,28 @@
-# cryptocurrency-wallet-generator
-
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://github.com/taisprestes01/cryptocurrency-wallet-generator/assets/108246691/3d8c94bf-42c6-4164-b047-9086d625a446" alt="Markdownify" width="200"></a>
   <br>
   Cryptocurrency wallet generator
   <br>
 </h1>
 
-<h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
+<h4 align="center">
+wallet generator for bitcoin, create your own wallet and make real transactions</h4>
 
 <p align="center">
-  <a href="https://badge.fury.io/js/electron-markdownify">
-    <img src="https://badge.fury.io/js/electron-markdownify.svg"
-         alt="Gitter">
+  <a href="https://www.npmjs.com/package/bitcoinjs-lib/v/1.1.8">
+    <img src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&r=r&ts=1683906897&type=6e&v=9.7.1&x2=0">
   </a>
-  <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
-  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
+	
+  <a href="https://www.npmjs.com/package/bip32">
+      <img src="https://img.shields.io/badge/bip32-2.0.6-blue.svg">
+  </a>
+
+  <a href="https://www.npmjs.com/package/bip32">
+      <img src="https://img.shields.io/badge/bip39-3.1.0-orange.svg">
+  </a>
+   <a href="https://www.npmjs.com/package/bip32">
+      <img src="https://img.shields.io/badge/bitcoinjs-6.1.5-yellow.svg">
   </a>
   <a href="https://www.paypal.me/AmitMerchant">
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
@@ -29,11 +34,8 @@
   <a href="#how-to-use">How To Use</a> •
   <a href="#download">Download</a> •
   <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
+  <a href="#related">Related</a> 
 </p>
-
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
 
 ## Key Features
 
@@ -61,41 +63,51 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+$ git clone https://github.com/taisprestes01/cryptocurrency-wallet-generator
+
+# Install Node
+- https://nodejs.org/en
 
 # Go into the repository
-$ cd electron-markdownify
+$ cd cryptocurrency-wallet-generator
 
 # Install dependencies
 $ npm install
+$ npm install bip39
+$ npm install bip32@2.0.6
+$ npm install bitcoinjs-lib
 
 # Run the app
-$ npm start
+$ cd src
+$ node .\createWallet.js
 ```
+<details>
+<summary>Install Electrum</summary>
+  https://electrum.org/#download
+</details>
 
-> **Note**
-> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+<details>
+<summary>Publish your wallet with the created private key</summary>
 
+## Open Electron, create wallet
+![image](https://github.com/taisprestes01/cryptocurrency-wallet-generator/assets/108246691/e5e74106-2bf0-4bad-b34e-2407d9a1176a)
 
-## Download
+## Import adress
+![image](https://github.com/taisprestes01/cryptocurrency-wallet-generator/assets/108246691/2b96dd62-f95a-46a5-8199-f1e9069a6cf9)
 
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
+## import private key
+![image](https://github.com/taisprestes01/cryptocurrency-wallet-generator/assets/108246691/f3f12799-62c3-429f-9a09-e1951fc2def0)
 
-## Emailware
+## create password
+![image](https://github.com/taisprestes01/cryptocurrency-wallet-generator/assets/108246691/6991f3c2-3bde-421d-a7e5-e13ae602e683)
 
-Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
+</details>
 
-## Credits
+## Wallet created
 
-This software uses the following open source packages:
+You can search your wallet address [here](https://www.blockchain.com/explorer/assets/btc) to see your balance.
+you can now carry out transactions
 
-- [Electron](http://electron.atom.io/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-- [showdown](http://showdownjs.github.io/showdown/)
-- [CodeMirror](http://codemirror.net/)
-- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
-- [highlight.js](https://highlightjs.org/)
 
 ## Related
 
@@ -105,11 +117,6 @@ This software uses the following open source packages:
 
 <a href="https://www.buymeacoffee.com/5Zn8Xh3l9" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
-<p>Or</p> 
-
-<a href="https://www.patreon.com/amitmerchant">
-	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
 
 ## You may also like...
 
